@@ -1,0 +1,221 @@
+<!--Responsive website-->
+<!--Anna Sikora 2020-->
+<!-- index.html -->
+<!DOCTYPE html>
+<html >
+<head>
+ <!-- meta data, and css -->
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-tofit=no">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+<title>Newhailes estate </title>
+ <!-- content start -->
+</head>
+<body>
+ <!-- navabar start-->
+ <nav class="navbar navbar-dark  navbar-expand-md fixed-top" id="navbars">
+          <div class="menu-icon">
+           
+        </div>
+       
+          <a class="navbar-brand"><img src="img/logo2.png" style="width:100px;" alt="logo" id="logo"></a>
+          <a class="navbar-brand" id="name">Newhailes Estate</a>
+          <button class="navbar-toggler" type="button"
+          data-toggle="collapse" data-target="#navbar-global"
+          aria-controls="navbar-global" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          
+<div class="collapse navbar-collapse" id="navbar-global">
+	<ul class="navbar-nav ml-auto" id="menu">
+
+
+		<li class="nav-item" >
+			<a href="index.html" class="nav-link"  data-value="home">Home</a>
+		</li>
+		<li class="nav-item">
+			<a href="gallery.html" class="nav-link" data-value="gallery">About</a>
+		</li>
+		<li class="nav-item">
+			<a href="visit.html" class="nav-link"  data-value="about">Plan your Visit</a>
+		</li>
+    </ul>
+  </div>
+
+</nav>
+
+
+
+<!--Jumbotron-->
+
+<div class="container-fluid" id="home">
+  
+    <div class="jumbotron jumbotron-fluid bg-light" id="jumbo">
+    <div class="container">
+   </div>
+</div>
+
+<!-- main heading-->
+<div class="container" >
+  <div class="row">
+    <div class="col-md-7">
+        <h1>Newhailes House and Gardens</h1><br>
+          <p>Newhailes House is a Palladian style country house in Musselburgh, East Lothian. House was built in 1686 for James Smith, who was also the architect of this place. The house is situated on 80 acres of parkland belonging to it, There are several footpaths leading around the estate with the views of the Forth, the Shell Grotto, Earl of Stair's Monument, old stables, Summer Tea House and water gardens. The property is currently owned by the National Trust for Scotland, it is possible to visit the house with a guide, there is also cafe, a play area for children and a space for picnic and community garden.
+            House was Originally named Whitehills, and belongs to the A Buildings category, meaning: "Buildings of national or international importance, either architectural or historic, or fine little-altered examples of some particular period, style or building type." Building comprises the original 7-bay frontage flanked by later extensions.
+          </p>
+    </div>
+    <div class="col-md-5">
+       <!-- Trigger the Modal -->
+<img id="myImg" src="img/map.png" alt="Map" width="550" height="450">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+    </div>
+  </div>
+</div>
+<br>
+<hr>
+<!--Cards-->
+<div class="container">
+<div class="row" >
+  <div class="col-md-4">
+    <div class="card-deck border-0">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+            <img src="img/stables1.jpg" alt="Stable" style="width:350px;height:300px;">
+            </div>
+            <div class="flip-card-back">
+            <h5>Stables and office</h5>
+            <p2>Situated to the south-west of Newhailes House, the stables and office block was built as part of the changes initiated on the estate in 1798 (with the north and east ranges constructed in 1826). They comprise a two-storey quadrangular Classical stable court, incorporating late 17th century to mid-18th century builds in the north-west and south-west ranges.
+            </p2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+        <div class="card-deck border-0">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              
+            <div class="flip-card-front">
+              <img src="img/art.jpg" alt="Stable" style="width:350px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+              <h5>Art collection on display in house</h5>
+              <p2>Several painting are on display within the house, largely Dalrymple family portraits 
+                by Scottish painter Allan Ramsay (artist),(1713-1784) and selection of local landscapes
+                by James Norie (1711-1736).. </p2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+  <div class="col-md-4">
+        <div class="card-deck border-0">
+          <div class="flip-card">
+              <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="img/grotto.jpg" alt="Stable" style="width:350px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+              <h5>Shell Grotto</h5>
+              <p2>Shell Grotto was Commissioned by Lord Hailes, built c.1785, as a pleasure ground to the north of the house. There are the remains of square plan rocaille grotto set in woodlands, currently roofless. The interior formerly lined with decorative seashell patterns, mounted on timber panels, of which only remnants remain in woodland around.
+              </p2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div>        
+  </div>
+</div>
+<!--Footer--> 
+<div class="container-fluid" id="footer">
+  <footer class="footer">
+    <span class="text-muted">&copy; 2020 The Newhailes Estate</span>
+ </footer> 
+</div>
+
+
+<!--js-->
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-
+q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-
+ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-
+ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  
+  
+<script>
+  $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('gold');
+            }
+
+            else {
+                  $('nav').removeClass('gold');
+            }
+      })
+</script>
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+</script>
+
+  
+</body>
+</html>
