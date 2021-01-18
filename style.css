@@ -62,10 +62,10 @@ nav ul li {
 
 nav ul li a {
     
-    
+    overflow:hidden;
     font-size: 25px;
     font-family: 'Abel', sans-serif; 
-    color: black;
+    
     
 }
 
