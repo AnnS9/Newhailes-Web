@@ -96,6 +96,7 @@ nav ul li a {
   background-position: center; 
   background-size: cover;
   height: 300px;
+  text-align:center;
 }
 
 #cont1
