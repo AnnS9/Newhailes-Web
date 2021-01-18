@@ -90,6 +90,13 @@ nav ul li a {
     height: 800px;
   
 }
+.jumbotron
+{
+  background-image: url(img/gal22.jpg);
+  background-position: center; 
+  background-size: cover;
+  height: 300px;
+}
 
 #cont1
 {
