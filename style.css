@@ -1,7 +1,7 @@
 
 /*Responsive website*/
 /*Anna Sikora 2020*/
-/*style.css */
+/*style1.css */
 body
 {
 	
@@ -48,21 +48,23 @@ nav ul {
 nav.gold  {
     background: -webkit-linear-gradient(left, #8f6B29, #FDE08D, #DF9F28);
 	background: linear-gradient(left, #8f6B29, #FDE08D, #DF9F28);
-  padding:5px 0 0;
+  padding:0px 0 0;
     
     
 }
 
-nav ul li {
+nav ul li 
+{
     display: inline-block;
     padding: 16px 30px;;
     
     
 }
 
-nav ul li a {
+nav ul li a 
+{
     
-    overflow:hidden;
+    overflow: hidden;
     font-size: 25px;
     font-family: 'Abel', sans-serif; 
     
@@ -99,15 +101,12 @@ nav ul li a {
   text-align: center;
   
 }
-.header
-{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  text-align: center; 
+@include media-breakpoint-up(sm) {
+  .jumbotron h1 {
+   font-size: 1.2rem;
+  }
 }
+
 #cont1
 {
     
@@ -138,8 +137,8 @@ nav ul li a {
     font-size: 30px;
     color:rgb(255, 255, 255);
     text-shadow: 2px 2px 4px #5e5c5c;
-    margin-left: 5px;
-    text-justify:
+    margin-left: px;
+    
 	
 }
 #history
@@ -159,7 +158,7 @@ background-image: linear-gradient(315deg, #d09d1f 0%, #c6920d 74%);
 }
 #about
 {
-  margin-top: 60px;
+  
   background-image: url(img/mesh.png);
    
 }
@@ -272,6 +271,7 @@ p4
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
+  overflow: hidden;
 }
 
 #myImg:hover {opacity: 0.7;}
